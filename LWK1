@@ -1,0 +1,132 @@
+<!doctype html>
+
+<html>
+<head>
+<title>This is my first Page</title>
+
+
+</head>
+
+<body>
+
+<!-- Header TAGS  -->
+
+<h1>This is H1</h1>
+<h2>This is H2</h2>
+<h3>This is H3</h3>
+<h4>This is H4</h4>
+<h5>This is H5</h5>
+
+<!--Paragraph TAGS -->
+
+<p>First Paragraph</p>
+
+<p>Second Paragraph</p>
+
+
+<p>
+Lutz Kerschke<br />
+73 Wilmot Street <br />
+Port Sorell <br />
+</p>
+
+<a href="http://google.com.au">This is my frist link which sends you to google home page</a>
+
+
+
+
+
+
+<h1>Forms Tutorial</h1>
+
+
+<div>
+
+<form action="Fake Page.php" method="">
+
+<fieldset><legend>Sign In</legend>
+
+<p><label>Enter Your Username: <Input type="text" name="username" id="username" value ="Default Value" size =25 maxlength="20"/></Label></p>
+<p><Label>Enter Your Password: <Input type="Password" name="password" id="password" size =25 maxlength="20"/></Label></p>
+
+
+<h2>Radio Buttons</h2>
+
+<p>
+<label for="sex">SEX:</label>
+<input type="radio" name="sex"value="male"/> Male
+<input type="radio" name="sex"value="female"/> Female
+<input type="radio" name="sex"value="??"/> ??
+</p>
+
+<h2>Check Boxes</h2>
+
+<p>
+<label for="interests">INTERESTS (Check all That Apply):</label><br />
+<input type="checkbox" name="Interest"value="database Programming"/> Database Programming<br />
+<input type="checkbox" name="interest"value="PHP Programming"/> PHP Programming<br />
+<input type="checkbox" name="interest"value="App Development"/> APP Development<br />
+<input type="checkbox" name="interest"value="Web Development"/> WEB Development<br />
+</p>
+
+<h2>Drop Down Lists</h2>
+
+<p>DOB :
+<p><label>
+<select name="Day">
+<Option value="1">1
+<Option value="2">2
+<Option value="3">3
+<Option value="13">13
+</select>
+</label>
+
+<label><select name="Month">
+<Option value="may">May
+<Option value="april">April
+<Option value="june">June
+<Option value="december">December
+</select></label>
+
+<label><select name="Year">
+<Option value="1934">1934
+<Option value="2009">2009
+<Option value="3345">3345
+<Option value="2013">2013
+</select></label>
+
+<p><label>Text Area :<br/>
+<textarea name ="bio" rows="6"cols="30"maxlength="100"></textarea>
+</label>
+</p>
+</p>
+
+<h2>Upload Button</h2><br/>
+
+<p><input type ="file" name ="upload";</p>
+
+
+
+<P><input type="submit" value="Submit Form" </P>
+</fieldset>
+
+
+<form><fieldset><legend>form sample</legend><label></label></fieldset></form>
+
+</form>
+
+</div>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
